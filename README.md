@@ -1,21 +1,11 @@
-# ExqPoolboy
+# exq_poolboy
+Test for poolboy in exq perform workers
 
-**TODO: Add description**
+## Environment variables
+- Change environment variables into `.env_example` file
+- Type `source .env_example` into terminal to load environment variables  
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `exq_poolboy` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:exq_poolboy, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/exq_poolboy](https://hexdocs.pm/exq_poolboy).
-
+## Run project
+- Run project with `iex -S mix`
+- Type `ExqPoolboy.test()`to run test Exq perform function with poolboy.
+- Check poolboy status with `ExqPoolboy.PoolboySup.status()` into terminal.
